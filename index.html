@@ -539,7 +539,7 @@
           type="button"
           aria-label="modal-clouse-button"
         >
-          <svg class="c" width="8" height="8">
+          <svg class="modal-clouse-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-form-icon"></use>
           </svg>
         </button>
@@ -607,25 +607,26 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="callback-form-checkbox-wrapper">
+          <div class="callback-form-wrapper-checkbox">
             <input
-              class="callback-form-checkbox visually-hidden"
+              class="checkbox-form visually-hidden"
               type="checkbox"
-              name="user-privacy"
-              id="user-privacy"
+              name="checkbox-form"
+              id="checkbox-form"
               value="true"
               required
             />
-            <label class="callback-form-label" for="user-privacy"
-              ><span class="click-check-form">
-                <svg class="click-check-form-icon" width="10" height="8">
+            <label class="checkbox-form-label" for="checkbox-form">
+              <span class="custom-checkbox"
+                ><svg class="custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click-check-form"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="" class="user-accept">Privacy Policy</a></label
-            >
+              <a href="" class="user-accept">Privacy Policy</a>
+            </label>
           </div>
+
           <button class="btn" type="submit" aria-label="submit-button">
             Send
           </button>
