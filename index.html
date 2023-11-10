@@ -508,11 +508,7 @@
         <div class="footer-form-container">
           <p class="footer-text">Subscribe</p>
           <form class="footer-form">
-            <label
-              class="footer-text"
-              for="footer-subscribe-user-email"
-            ></label>
-            <div class="footer-subscribe-container">
+            <label class="footer-text" for="footer-subscribe-user-email">
               <input
                 class="footer-subscribe-form"
                 type="email"
@@ -520,16 +516,14 @@
                 id="footer-subscribe-user-email"
                 placeholder="E-mail"
                 required
-              />
-              <button class="footer-form-btn" type="submit">
-                Subscribe
-                <span>
-                  <svg class="submit-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-Frame"></use>
-                  </svg>
-                </span>
-              </button>
-            </div>
+            /></label>
+
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="submit-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -537,14 +531,14 @@
 
     <!-- MODAL FORM-->
 
-    <div class="backdrop isopen">
+    <div class="backdrop is-open">
       <div class="modal">
         <button
           class="modal-clouse-btn"
           type="button"
           aria-label="modal-clouse-button"
         >
-          <svg class="modal-clouse-btn-icon" width="8" height="8">
+          <svg class="c" width="8" height="8">
             <use href="./images/icons.svg#icon-close-form-icon"></use>
           </svg>
         </button>
@@ -558,7 +552,7 @@
               <input
                 class="callback-form-field"
                 type="text"
-                name="user_name"
+                name="user-name"
                 id="user-name"
                 required
                 pattern="[a-zA-Z]+"
@@ -601,14 +595,14 @@
               </svg>
             </div>
           </div>
-          <div class="callback-form-wrapper">
-            <label class="callback-form-label" for="user-massage">
+          <div class="callback-form-wrapper-massage">
+            <label class="callback-form-label" for="user-comment">
               Comment
             </label>
             <textarea
-              class="callback-form-massage"
-              name="user_massage"
-              id="user-massage"
+              class="callback-form-comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -616,14 +610,14 @@
             <input
               class="callback-form-checkbox visually-hidden"
               type="checkbox"
-              name="user_accept"
-              id="user-accept"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="callback-form-label" for="user-accept"
+            <label class="callback-form-label" for="user-privacy"
               ><span class="click-check-form">
-                <svg class="click-check-form-icon" width="16" height="16">
+                <svg class="click-check-form-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click-check-form"></use>
                 </svg>
               </span>
