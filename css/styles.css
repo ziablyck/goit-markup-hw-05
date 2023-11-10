@@ -789,14 +789,20 @@ color: rgba(46, 47, 66, 0.40);
     color:  #8E8F99;
         font-size: 12px;
         font-weight: 400;
-        line-height: 1.17px;
-        letter-spacing: 0.02em;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
 } 
 
 .checkbox-form:checked + .checkbox-form-label .custom-checkbox {
+    border: none;
 background-color: #404BBF;
 fill: #F4F4FD;
 }
+
+.user-accept {
+    color: #4D5AE5;
+}
+
 .btn {
     display: block;
         color: #FFF;
